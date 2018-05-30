@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6C292220AC6EEC002DABEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C292120AC6EEC002DABEE /* AppDelegate.swift */; };
+		4C6C292420AC6EEC002DABEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C292320AC6EEC002DABEE /* ViewController.swift */; };
+		4C6C292720AC6EEC002DABEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C292520AC6EEC002DABEE /* Main.storyboard */; };
+		4C6C292920AC6EEC002DABEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C292820AC6EEC002DABEE /* Assets.xcassets */; };
+		4C6C292C20AC6EEC002DABEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C292A20AC6EEC002DABEE /* LaunchScreen.storyboard */; };
+		4C6C293720AC6EEC002DABEE /* RoseQueenBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C293620AC6EEC002DABEE /* RoseQueenBooksTests.swift */; };
+		4C6C294220AC6EEC002DABEE /* RoseQueenBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C294120AC6EEC002DABEE /* RoseQueenBooksUITests.swift */; };
+		4C6C295020AC6FE9002DABEE /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C294F20AC6FE9002DABEE /* Books.swift */; };
+		4C6C295220AC709A002DABEE /* TCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C295120AC709A002DABEE /* TCTableViewController.swift */; };
+		4C6C295420AC7137002DABEE /* TCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C295320AC7137002DABEE /* TCTableViewCell.swift */; };
+		4C6C295A20AC71AE002DABEE /* SCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C295920AC71AE002DABEE /* SCViewController.swift */; };
+		4C6C296020AC832B002DABEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C295F20AC832B002DABEE /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6C293320AC6EEC002DABEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6C291620AC6EEC002DABEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6C291D20AC6EEC002DABEE;
+			remoteInfo = RoseQueenBooks;
+		};
+		4C6C293E20AC6EEC002DABEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6C291620AC6EEC002DABEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6C291D20AC6EEC002DABEE;
+			remoteInfo = RoseQueenBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C6C291E20AC6EEC002DABEE /* RoseQueenBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoseQueenBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C292120AC6EEC002DABEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C6C292320AC6EEC002DABEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C6C292620AC6EEC002DABEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6C292820AC6EEC002DABEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6C292B20AC6EEC002DABEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6C292D20AC6EEC002DABEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C293220AC6EEC002DABEE /* RoseQueenBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoseQueenBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C293620AC6EEC002DABEE /* RoseQueenBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseQueenBooksTests.swift; sourceTree = "<group>"; };
+		4C6C293820AC6EEC002DABEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C293D20AC6EEC002DABEE /* RoseQueenBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoseQueenBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C294120AC6EEC002DABEE /* RoseQueenBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseQueenBooksUITests.swift; sourceTree = "<group>"; };
+		4C6C294320AC6EEC002DABEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C294F20AC6FE9002DABEE /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		4C6C295120AC709A002DABEE /* TCTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCTableViewController.swift; sourceTree = "<group>"; };
+		4C6C295320AC7137002DABEE /* TCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCTableViewCell.swift; sourceTree = "<group>"; };
+		4C6C295920AC71AE002DABEE /* SCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewController.swift; sourceTree = "<group>"; };
+		4C6C295F20AC832B002DABEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6C291B20AC6EEC002DABEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C292F20AC6EEC002DABEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C293A20AC6EEC002DABEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6C291520AC6EEC002DABEE = {
+			isa = PBXGroup;
+			children = (
+				4C6C292020AC6EEC002DABEE /* RoseQueenBooks */,
+				4C6C293520AC6EEC002DABEE /* RoseQueenBooksTests */,
+				4C6C294020AC6EEC002DABEE /* RoseQueenBooksUITests */,
+				4C6C291F20AC6EEC002DABEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6C291F20AC6EEC002DABEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C291E20AC6EEC002DABEE /* RoseQueenBooks.app */,
+				4C6C293220AC6EEC002DABEE /* RoseQueenBooksTests.xctest */,
+				4C6C293D20AC6EEC002DABEE /* RoseQueenBooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6C292020AC6EEC002DABEE /* RoseQueenBooks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C295920AC71AE002DABEE /* SCViewController.swift */,
+				4C6C292120AC6EEC002DABEE /* AppDelegate.swift */,
+				4C6C292320AC6EEC002DABEE /* ViewController.swift */,
+				4C6C292520AC6EEC002DABEE /* Main.storyboard */,
+				4C6C295120AC709A002DABEE /* TCTableViewController.swift */,
+				4C6C295320AC7137002DABEE /* TCTableViewCell.swift */,
+				4C6C292820AC6EEC002DABEE /* Assets.xcassets */,
+				4C6C292A20AC6EEC002DABEE /* LaunchScreen.storyboard */,
+				4C6C294F20AC6FE9002DABEE /* Books.swift */,
+				4C6C292D20AC6EEC002DABEE /* Info.plist */,
+				4C6C295F20AC832B002DABEE /* Images.xcassets */,
+			);
+			path = RoseQueenBooks;
+			sourceTree = "<group>";
+		};
+		4C6C293520AC6EEC002DABEE /* RoseQueenBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C293620AC6EEC002DABEE /* RoseQueenBooksTests.swift */,
+				4C6C293820AC6EEC002DABEE /* Info.plist */,
+			);
+			path = RoseQueenBooksTests;
+			sourceTree = "<group>";
+		};
+		4C6C294020AC6EEC002DABEE /* RoseQueenBooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C294120AC6EEC002DABEE /* RoseQueenBooksUITests.swift */,
+				4C6C294320AC6EEC002DABEE /* Info.plist */,
+			);
+			path = RoseQueenBooksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6C291D20AC6EEC002DABEE /* RoseQueenBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6C294620AC6EEC002DABEE /* Build configuration list for PBXNativeTarget "RoseQueenBooks" */;
+			buildPhases = (
+				4C6C291A20AC6EEC002DABEE /* Sources */,
+				4C6C291B20AC6EEC002DABEE /* Frameworks */,
+				4C6C291C20AC6EEC002DABEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoseQueenBooks;
+			productName = RoseQueenBooks;
+			productReference = 4C6C291E20AC6EEC002DABEE /* RoseQueenBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C6C293120AC6EEC002DABEE /* RoseQueenBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6C294920AC6EEC002DABEE /* Build configuration list for PBXNativeTarget "RoseQueenBooksTests" */;
+			buildPhases = (
+				4C6C292E20AC6EEC002DABEE /* Sources */,
+				4C6C292F20AC6EEC002DABEE /* Frameworks */,
+				4C6C293020AC6EEC002DABEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6C293420AC6EEC002DABEE /* PBXTargetDependency */,
+			);
+			name = RoseQueenBooksTests;
+			productName = RoseQueenBooksTests;
+			productReference = 4C6C293220AC6EEC002DABEE /* RoseQueenBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C6C293C20AC6EEC002DABEE /* RoseQueenBooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6C294C20AC6EEC002DABEE /* Build configuration list for PBXNativeTarget "RoseQueenBooksUITests" */;
+			buildPhases = (
+				4C6C293920AC6EEC002DABEE /* Sources */,
+				4C6C293A20AC6EEC002DABEE /* Frameworks */,
+				4C6C293B20AC6EEC002DABEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6C293F20AC6EEC002DABEE /* PBXTargetDependency */,
+			);
+			name = RoseQueenBooksUITests;
+			productName = RoseQueenBooksUITests;
+			productReference = 4C6C293D20AC6EEC002DABEE /* RoseQueenBooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6C291620AC6EEC002DABEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = epita.fr.RoseQueen;
+				TargetAttributes = {
+					4C6C291D20AC6EEC002DABEE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4C6C293120AC6EEC002DABEE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C6C291D20AC6EEC002DABEE;
+					};
+					4C6C293C20AC6EEC002DABEE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C6C291D20AC6EEC002DABEE;
+					};
+				};
+			};
+			buildConfigurationList = 4C6C291920AC6EEC002DABEE /* Build configuration list for PBXProject "RoseQueenBooks" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6C291520AC6EEC002DABEE;
+			productRefGroup = 4C6C291F20AC6EEC002DABEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6C291D20AC6EEC002DABEE /* RoseQueenBooks */,
+				4C6C293120AC6EEC002DABEE /* RoseQueenBooksTests */,
+				4C6C293C20AC6EEC002DABEE /* RoseQueenBooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6C291C20AC6EEC002DABEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C292C20AC6EEC002DABEE /* LaunchScreen.storyboard in Resources */,
+				4C6C296020AC832B002DABEE /* Images.xcassets in Resources */,
+				4C6C292920AC6EEC002DABEE /* Assets.xcassets in Resources */,
+				4C6C292720AC6EEC002DABEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C293020AC6EEC002DABEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C293B20AC6EEC002DABEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6C291A20AC6EEC002DABEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C295A20AC71AE002DABEE /* SCViewController.swift in Sources */,
+				4C6C295220AC709A002DABEE /* TCTableViewController.swift in Sources */,
+				4C6C295020AC6FE9002DABEE /* Books.swift in Sources */,
+				4C6C292420AC6EEC002DABEE /* ViewController.swift in Sources */,
+				4C6C292220AC6EEC002DABEE /* AppDelegate.swift in Sources */,
+				4C6C295420AC7137002DABEE /* TCTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C292E20AC6EEC002DABEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C293720AC6EEC002DABEE /* RoseQueenBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C293920AC6EEC002DABEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C294220AC6EEC002DABEE /* RoseQueenBooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6C293420AC6EEC002DABEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6C291D20AC6EEC002DABEE /* RoseQueenBooks */;
+			targetProxy = 4C6C293320AC6EEC002DABEE /* PBXContainerItemProxy */;
+		};
+		4C6C293F20AC6EEC002DABEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6C291D20AC6EEC002DABEE /* RoseQueenBooks */;
+			targetProxy = 4C6C293E20AC6EEC002DABEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6C292520AC6EEC002DABEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6C292620AC6EEC002DABEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C6C292A20AC6EEC002DABEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6C292B20AC6EEC002DABEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6C294420AC6EEC002DABEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C6C294520AC6EEC002DABEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6C294720AC6EEC002DABEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoseQueenBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = epita.fr.RoseQueenBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6C294820AC6EEC002DABEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoseQueenBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = epita.fr.RoseQueenBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C6C294A20AC6EEC002DABEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoseQueenBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = epita.fr.RoseQueenBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoseQueenBooks.app/RoseQueenBooks";
+			};
+			name = Debug;
+		};
+		4C6C294B20AC6EEC002DABEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoseQueenBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = epita.fr.RoseQueenBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoseQueenBooks.app/RoseQueenBooks";
+			};
+			name = Release;
+		};
+		4C6C294D20AC6EEC002DABEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoseQueenBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = epita.fr.RoseQueenBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoseQueenBooks;
+			};
+			name = Debug;
+		};
+		4C6C294E20AC6EEC002DABEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoseQueenBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = epita.fr.RoseQueenBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoseQueenBooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6C291920AC6EEC002DABEE /* Build configuration list for PBXProject "RoseQueenBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C294420AC6EEC002DABEE /* Debug */,
+				4C6C294520AC6EEC002DABEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6C294620AC6EEC002DABEE /* Build configuration list for PBXNativeTarget "RoseQueenBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C294720AC6EEC002DABEE /* Debug */,
+				4C6C294820AC6EEC002DABEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6C294920AC6EEC002DABEE /* Build configuration list for PBXNativeTarget "RoseQueenBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C294A20AC6EEC002DABEE /* Debug */,
+				4C6C294B20AC6EEC002DABEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6C294C20AC6EEC002DABEE /* Build configuration list for PBXNativeTarget "RoseQueenBooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C294D20AC6EEC002DABEE /* Debug */,
+				4C6C294E20AC6EEC002DABEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6C291620AC6EEC002DABEE /* Project object */;
+}
